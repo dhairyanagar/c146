@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"> </script>
+
+ </head>
+
+ <body>
+
+  <a-scene background ="color:#000000">
+   <a-cylinder position = "1 -2 -7" rotation = "0 0 0" color="#E8BEAC" radius="1" height="3">   </a-cylinder>
+   <a-cylinder position = "-2 -2 -7" rotation = "0 0 0" color="#E8BEAC" radius="1" height="3">   </a-cylinder>
+   <a-box position = "-0.5 1.5 -7" rotation = "0 0 0" color="#E8BEAC" height="4" width="5"></a-box>
+   <a-box position = "3 1.5 -7" rotation = "0 0 0" color="#E8BEAC" height="1" width="5"></a-box>
+   <a-box position = "-3 1.5 -7" rotation = "0 0 0" color="#E8BEAC" height="1" width="5"></a-box>
+   <a-box position = "-0.5 4.5 -7" rotation = "0 0 0" color="#E8BEAC" height="2" width="2"></a-box>
+   <a-cylinder position = "-0.5 6 -7" rotation = "0 0 0" color="#E8BEAC" radius="0.25" height="1" animation="property:position;from:-1 6 -7;to:0 6 -7;dir:alternate;loop:true;dur:1000 ">   </a-cylinder>
+   <a-sphere position ="-1 5 -6.75" radius="0.5" rotation ="0 0 0" color="#000000" animation="property:position;from:-1 5 -6.75;to:-1 4 -6.75;dir:alternate;loop:true"></a-sphere>
+   <a-sphere position ="0 5 -6.75" radius="0.5" rotation ="0 0 0" color="#000000" animation="property:position;from:0 5 -6.75;to:0 4 -6.75;dir:alternate;loop:true"></a-sphere>
+
+  </a-scene>
+
+ </body>
+
+</html>
